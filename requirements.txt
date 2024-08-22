@@ -1,8 +1,7 @@
 streamlit
 pandas
 matplotlib
-seaborn
-pickle5  
+seaborn 
 underthesea
 scikit-learn
-surprise
+scikit-surprise
