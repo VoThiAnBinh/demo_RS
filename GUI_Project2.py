@@ -1,4 +1,5 @@
 import streamlit as st
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -11,7 +12,6 @@ from surprise import Dataset, Reader,accuracy,BaselineOnly
 from surprise.model_selection import train_test_split
 from surprise import Dataset, Reader, SVD
 from surprise.model_selection import cross_validate
-
 
  # Đọc dữ liệu khách sạn
 hotel_info = pd.read_csv('hotel_info.csv')
